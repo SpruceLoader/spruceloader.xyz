@@ -42,14 +42,22 @@
 		margin: 0;
 	}
 
-	.links {
+	ul {
 		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.links {
 		display: flex;
 		flex-direction: row;
 	}
 
 	.links-item {
-		padding: 15px;
-		padding-top: 0;
+		margin-right: 15px;
+	}
+
+	.links-item:last-of-type {
+		margin: 0;
 	}
 </style>
