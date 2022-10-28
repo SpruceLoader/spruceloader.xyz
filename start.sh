@@ -13,5 +13,5 @@ DIR=$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )
 cd $DIR
 # Rebuild the site
 npm run build
-# Start the site on port 3009
+# Start the site on port 3010
 PORT=3010 /usr/bin/node build/index.js
